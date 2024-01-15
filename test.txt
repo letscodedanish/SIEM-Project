@@ -1,0 +1,47 @@
+To test the code on your local system, you can follow these steps:
+
+Prerequisites:
+Ensure that you have Python installed on your system. You can download it from Python's official website.
+Install MongoDB on your local machine. You can download it from MongoDB's official website.
+Steps:
+Setup MongoDB:
+
+Start MongoDB server on your local machine.
+Install Required Packages:
+Open your terminal/command prompt and navigate to the directory where your Python scripts are located. Run the following command to install the required packages:
+
+bash
+Copy code
+pip install pymongo
+Create a config.ini File:
+Create a file named config.ini in the same directory as your Python scripts (parsing.py, parser.py, and server.py). Copy and paste the configuration mentioned earlier in this conversation into config.ini. Adjust MongoDB settings as needed.
+
+Run the server.py Script:
+Open a new terminal or command prompt window and navigate to the directory containing server.py. Run the following command:
+
+bash
+Copy code
+python server.py
+This script will start listening for UDP logs.
+
+Run the parsing.py Script:
+Open a new terminal or command prompt window and navigate to the directory containing parsing.py. Run the following command:
+
+bash
+Copy code
+python parsing.py
+This script will parse logs from a file (replace "C:\\project\\data6.csv" with the path to your actual log file) and insert them into MongoDB.
+
+Run the parser.py Script:
+Open a new terminal or command prompt window and navigate to the directory containing parser.py. Run the following command:
+
+bash
+Copy code
+python parser.py
+This script will parse Windows logs and insert them into MongoDB.
+
+Check MongoDB:
+Open MongoDB Compass or use the MongoDB shell to check if data has been inserted into the database and collection specified in config.ini.
+
+Observe Output:
+Observe the terminal/command prompt outputs of each script for any errors or processing information.
