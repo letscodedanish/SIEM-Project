@@ -2,8 +2,8 @@ Project Overview:
 1. Objective:
 
 The project aims to develop a Security Information and Event Management (SIEM) system for real-time monitoring and analysis of security events. It focuses on handling logs received through UDP, parsing them, and storing them in a MongoDB database.
-2. Components:
 
+2. Components:
 UDP Server (server.py):
 
 Listens for logs on a specified UDP port.
