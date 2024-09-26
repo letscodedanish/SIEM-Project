@@ -18,13 +18,13 @@ The project aims to develop a **Security Information and Event Management (SIEM)
   - Extracts relevant fields using regular expressions.
   - Inserts parsed data into a MongoDB database (`project_db`).
 
-### Frontend (To Be Developed)
-- The frontend will be developed using **React.js**.
+### Frontend 
+- The frontend is developed using **React.js**.
 - It will provide a user-friendly interface for interacting with the parsed logs.
 - Users can view logs, apply filters, and perform other actions through the UI.
 
-### Backend (To Be Developed)
-- The backend will be developed using **Node.js** and **Express.js**.
+### Backend 
+- The backend is developed using **Node.js** and **Express.js**.
 - It will handle communication with the **MongoDB** database.
 - Provides API endpoints for the frontend to fetch and interact with log data.
 
